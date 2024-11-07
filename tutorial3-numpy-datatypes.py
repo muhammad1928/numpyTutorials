@@ -14,6 +14,9 @@ print(type(b[0][0])) # <class 'numpy.int64'> which mens its a integer in array b
 c = np.array([[1,2,3], [4, "5", 6], [7,8,9]], dtype=np.float64)
 
 
+  
+
+  
 
 # part 2  dictionary
 d1 = {'1': 'A'}
