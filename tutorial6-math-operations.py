@@ -29,3 +29,10 @@ print(a3 + a4) # this will return a 3 by 2 matrix
 b1 = np.array([[1,2,3], [4,5,6]]) # 2 dimensional array
 
 print(np.sqrt(b1)) # sqrt of b1
+print(np.cos(b1))  # cos 
+print(np.sin(b1))   # sin
+print(np.log(b1))   # log we can also use np.log2(b1)  or np.log10(b1) to use log in base 2 or in base 10
+print(np.tan(b1))
+
+# for more functions
+# go to https://numpy.org/doc/2.0/reference/routines.math.html
