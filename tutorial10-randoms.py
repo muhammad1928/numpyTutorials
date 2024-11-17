@@ -24,5 +24,9 @@ print(numbers)
 numbers = np.random.normal(loc=170, scale=15, size=(5,5)) # loc 170 means location 170, scale 15 = ((170 -15)< 170 < (170+15))
 print(numbers)
 
-numbers = np.random.choice([10,20,30,40,50]) # this will choose arandom number from thearray
-print(numbers)
+# numbers = np.random.choice([10,20,30,40,50]) # this will choose arandom number from thearray
+# print(numbers)
+
+# np.save("myarray.npy", numbers) # this will save the file as a binary
+a = np.load("myarray.npy") # this will load the file
+print(a)
